@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    /* Responsável por alinhar os itens lado a lado dentro do HEADER*/
+    justify-content: space-between;
+    /*  */
+    align-items: center;
+    /*  */
+    background-color: #0e0036;
+    /*  */
+    padding: 60px;
+    /*  */
+    flex-wrap: wrap;
+    /* wrap é usado para autorizar o ajuste em telas menores  */
+}
+
+.header i {
+    font-size: 100px;
+    color: #a04f62;
+    /* https://paletadecores.com/paleta/0e0036/4c264b/a04f62/d2a391/e6d7b8/ */
+}
