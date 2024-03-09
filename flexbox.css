@@ -23,4 +23,56 @@
     font-size: 100px;
     color: #a04f62;
     /* https://paletadecores.com/paleta/0e0036/4c264b/a04f62/d2a391/e6d7b8/ */
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #a04f62;
+    padding: 10px;
+    background-color: #e6d7b8;
+    border-radius: 10px;
+}
+
+.menu li {
+    margin-left: 13px;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex {
+    display: flex;/* aqui atribuímos as imagens lado a lado */
+    flex-wrap: wrap; /* aqui informamos que os itens podem "quebrar" para se adpatar em telas menores */
+    max-width: 800px; /* adaptação máxima dos conteúdos que estão dentro da section(div) */
+    margin: 0 auto; /* centralizar as div */
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.flex img {
+    max-width: 100%; /*adaptação máxima da imagem na página dentro da div*/
+    display: block; /*reforçando que minhas imagens estejam em formato de blocos*/
+}
+
+.flex div {
+    margin: 10px; /*Espaçamento das margens superior,inferior e laterais*/
+    flex: 1 1 200px;/*  */
+}
+
+.secao2 {
+    text-align: justify;
+    background-color: #0e0036;
+    padding: 150px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
