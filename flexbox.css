@@ -13,14 +13,14 @@
     /*  */
     background-color: #0e0036;
     /*  */
-    padding: 60px;
+    padding: 3.75rem;
     /*  */
     flex-wrap: wrap;
     /* wrap é usado para autorizar o ajuste em telas menores  */
 }
 
 .header i {
-    font-size: 100px;
+    font-size: 6.25rem;
     color: #a04f62;
     /* https://paletadecores.com/paleta/0e0036/4c264b/a04f62/d2a391/e6d7b8/ */
 
@@ -29,19 +29,18 @@
 .menu li a {
     text-decoration: none;
     color: #a04f62;
-    padding: 10px;
+    padding: 0.5rem;
     background-color: #e6d7b8;
-    border-radius: 10px;
+    border-radius: 0.5rem;
 }
 
 .menu li {
-    margin-left: 13px;
+    margin-left: 0.7rem;
     list-style: none;
 }
 
 .menu {
     display: flex;
-
 }
 
 h1 {
@@ -79,9 +78,9 @@ h1 {
 .secao2 {
     text-align: justify;
     background-color: #0e0036;
-    padding: 150px;
+    padding: 9.3rem;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -91,32 +90,143 @@ h1 {
     justify-content: space-between;
     color: white;
     align-items: center;
-    padding: 40px;
+    padding: 2.5rem;
 
 }
+
 .rodape li {
     list-style: none;
-    font-size: 25px;
+    font-size: 1.56rem;
     margin-left: 90px;
 }
+
 .rodape i {
-    font-size: 30px;
+    font-size: 1.8em;
     color: #a04f62;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 0.5em;
     background-color: #e6d7b8;
     margin-left: 20px;
     border-radius: 8px;
 }
+
 .lista {
     display: flex;
     margin: 40px;
 }
+
 .lista li a {
     text-decoration: none;
     color: #a04f62;
 }
+
 .lista :hover {
     color: white;
     transition: 0.5s;
+}
+
+@media screen and (max-width:480px) {
+    
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0036;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+
+.header i {
+    font-size: 3rem;
+    color: #a04f62;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #a04f62;
+    padding: 0.4rem;
+    background-color: #e6d7b8;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+}
+
+.menu li {
+    margin-left: 0.7rem;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.8rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex p {
+    margin-left: 35px;
+    font-size: 1.3rem;
+}
+
+.flex img {
+    width: 8rem;
+    height: auto;
+    display: block;
+    margin-left: 60px;
+}
+
+.secao2 {
+    text-align: justify;
+    background-color: #0e0036;
+    padding: 17%;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rodape {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 1%;
+
+}
+
+.rodape li {
+    list-style: none;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.rodape i {
+    font-size: 0.8rem;
+    color: #a04f62;
+    flex-wrap: wrap;
+    background-color: #e6d7b8;
+    border-radius: 8px;
+}
+
+.lista {
+    display: inline
+}
+
+.lista li a {
+    text-decoration: none;
+    color: #a04f62;
+}
+
+.lista :hover {
+    color: white;
+    transition: 0.5s;
+}
 }
